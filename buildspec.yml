@@ -27,4 +27,4 @@ phases:
       - mvn package
 artifacts:
   files:
-    - '**/codeguru-profiler-java-agent-standalone-1.0.0.jar'
+    - '**/*'
