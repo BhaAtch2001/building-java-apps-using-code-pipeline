@@ -11,4 +11,4 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/testfunction-1.0.0-jar-with-dependencies.jar
+    - Artifact/testfunction-1.0.0-jar-with-dependencies.jar
