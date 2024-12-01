@@ -107,9 +107,9 @@
     </dependencies>
     <distributionManagement>
         <repository>
-            <id>mydomain--mycdkdemoapp</id>
-            <name>mydomain--mycdkdemoapp</name>
-            <url>https://mydomain-<ACCT-ID>.d.codeartifact.<region>.amazonaws.com/maven/mycdkdemoapp/</url>
+            <id>awscloudevops-cloudevops</id>
+            <name>awscloudevops-cloudevops</name>
+            <url>https://awscloudevops-825765392170.d.codeartifact.us-east-1.amazonaws.com/maven/cloudevops/</url>
         </repository>
     </distributionManagement>
 </project>
