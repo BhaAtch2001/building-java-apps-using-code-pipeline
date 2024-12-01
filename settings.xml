@@ -4,7 +4,7 @@
 
   <servers>
     <server>
-      <id>mydomain--mycdkdemoapp</id>
+      <id>awscloudevops-cloudevops</id>
       <username>aws</username>
       <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
     </server>
@@ -12,23 +12,23 @@
   
   <mirrors>
     <mirror>
-      <id>mydomain--mycdkdemoapp</id>
-      <name>mydomain--mycdkdemoapp</name>
-      <url>https://mydomain-<ACCT-ID>.d.codeartifact.<region>.amazonaws.com/maven/mycdkdemoapp/</url>
+      <id>awscloudevops-cloudevops</id>
+      <name>awscloudevops-cloudevops</name>
+      <url>https://awscloudevops-825765392170.d.codeartifact.us-east-1.amazonaws.com/maven/cloudevops/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
   </mirrors>
 
   <profiles>
     <profile>
-      <id>mydomain--mycdkdemoapp</id>
+      <id>awscloudevops-cloudevops</id>
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
       <repositories>
         <repository>
-          <id>mydomain--mycdkdemoapp</id>
-          <url>https://mydomain-<ACCT-ID>.d.codeartifact.<region>.amazonaws.com/maven/mycdkdemoapp/</url>
+          <id>awscloudevops-cloudevops</id>
+          <url>https://awscloudevops-825765392170.d.codeartifact.us-east-1.amazonaws.com/maven/cloudevops/</url>
         </repository>
       </repositories>
     </profile>
